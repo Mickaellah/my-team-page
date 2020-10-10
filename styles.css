@@ -28,39 +28,40 @@ figure {
 .text {
     text-transform: uppercase;
     position: absolute;
+    font-size: 12px;
     transform: rotate(90deg);
 }
 
 .text-bill {
-    top: 42px;
-    left: 84px;
+    top: 32px;
+    left: 98px;
 }
 
 .text-saba {
-    top: 82px;
-    left: 292px;
+    top: 72px;
+    left: 305px;
     display: inline-table;
 }
 
 .text-shae {
-    top: 294px;
-    left: 110px;
+    top: 290px;
+    left: 116px;
 }
 
 .text-skylah {
-    top: 360px;
-    left: 292px;
+    top: 350px;
+    left: 305px;
     display: inline-table;
 }
 
 .text-griff {
-    top: 572px;
-    left: 106px;
+    top: 566px;
+    left: 116px;
 }
 
 .text-stan {
-    top: 622px;
-    left: 302px;
+    top: 615px;
+    left: 314px;
     display: inline-table;
 }
 
