@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.heading {
+    margin: 0;
+}
+
+.main_heading {
+    text-transform: uppercase;
+    margin-block-start: 32px;
+}
+
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-block-start: 64px;
+}
+
+figure {
+    margin: 0;
+}
+
+.text {
+    text-transform: uppercase;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.text-bill {
+    top: 42px;
+    left: 84px;
+}
+
+.text-saba {
+    top: 82px;
+    left: 292px;
+    display: inline-table;
+}
+
+.text-shae {
+    top: 294px;
+    left: 110px;
+}
+
+.text-skylah {
+    top: 360px;
+    left: 292px;
+    display: inline-table;
+}
+
+.text-griff {
+    top: 572px;
+    left: 106px;
+}
+
+.text-stan {
+    top: 622px;
+    left: 302px;
+    display: inline-table;
+}
+
+figcaption {
+    font-weight: 700;
+}
+
+.image_bill {
+
+}
+
+.image_saba {
+    margin-block-start: 50px;
+}
+
+.image_shae {
+
+}
+
+.image_skylah {
+    margin-block-start: 50px;
+}
+
+.image_griff {
+
+}
+
+.image_stan {
+    margin-block-start: 50px;
+}
