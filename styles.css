@@ -18,11 +18,17 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    column-gap: 32px;
     margin-block-start: 64px;
 }
 
 figure {
     margin: 0;
+}
+
+img {
+    max-width: 100%;
 }
 
 .text {
@@ -32,64 +38,47 @@ figure {
     transform: rotate(90deg);
 }
 
-.text-bill {
-    top: 32px;
-    left: 98px;
+ .text-bill {
+    top: 4%;
+    left: 34%;
 }
 
 .text-saba {
-    top: 72px;
-    left: 305px;
+    top: 8%;
+    left: 91%;
     display: inline-table;
 }
 
 .text-shae {
-    top: 290px;
-    left: 116px;
+    top: 35%;
+    left: 39%;
 }
 
 .text-skylah {
-    top: 350px;
-    left: 305px;
+    top: 41.5%;
+    left: 91%;
     display: inline-table;
 }
 
 .text-griff {
-    top: 566px;
-    left: 116px;
+    top: 68.5%;
+    left: 38.5%;
 }
 
 .text-stan {
-    top: 615px;
-    left: 314px;
+    top: 74%;
+    left: 93%;
     display: inline-table;
-}
+} */
 
 figcaption {
     font-size: 18px;
     font-weight: 700;
+    margin-block-start: -24px;
 }
 
-.image_bill {
-
-}
-
-.image_saba {
-    margin-block-start: 50px;
-}
-
-.image_shae {
-
-}
-
-.image_skylah {
-    margin-block-start: 50px;
-}
-
-.image_griff {
-
-}
-
+.image_saba,
+.image_skylah,
 .image_stan {
     margin-block-start: 50px;
 }
