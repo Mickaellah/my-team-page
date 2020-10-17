@@ -73,42 +73,43 @@ img {
 
 .text {
     font-family: 'Pt Serif';
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
     text-transform: uppercase;
     position: absolute;
     font-size: 12px;
-    transform: rotate(90deg);
 }
 
 .text-bill {
-    top: 4%;
-    left: 34%;
+    top: 0%;
+    left: 44%;
 }
 
 .text-saba {
-    top: 8%;
-    left: 91%;
+    top: 4.5%;
+    left: 98%;
     display: inline-table;
 }
 
 .text-shae {
-    top: 35%;
-    left: 39%;
+    top: 33.5%;
+    left: 44%;
 }
 
 .text-skylah {
-    top: 41.5%;
-    left: 91%;
+    top: 37.5%;
+    left: 98%;
     display: inline-table;
 }
 
 .text-griff {
-    top: 68.5%;
-    left: 38.5%;
+    top: 66.5%;
+    left: 44%;
 }
 
 .text-stan {
-    top: 74%;
-    left: 93%;
+    top: 71%;
+    left: 98%;
     display: inline-table;
 }
 
@@ -130,7 +131,7 @@ footer {
     margin-block-start: 100px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 550px) {
     body {
         max-width: 1000px;
         margin-inline-start: auto;
@@ -140,6 +141,10 @@ footer {
     .header {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    figure {
+        position: relative;
     }
 
     .content {
@@ -163,34 +168,35 @@ footer {
     }
 
     .text-bill {
-        top: 2.5%;
-        left: 26%;
+        position: absolute;
+        top: 0%;
+        left: 94%;
     }
 
     .text-saba {
-        top: 10%;
-        left: 61.8%;
+        top: 0%;
+        left: 96%;
     }
 
     .text-shae {
-        top: 1%;
-        left: 97.8%;
+        top: 0%;
+        left: 96%;
         display: inline-table;
     }
 
     .text-skylah {
-        top: 56%;
-        left: 26.8%;
+        top: 0%;
+        left: 96%;
     }
 
     .text-griff {
-        top: 63.2%;
-        left: 62.7%;
+        top: 0%;
+        left: 96%;
     }
 
     .text-stan {
-        top: 55%;
-        left: 97.5%;
+        top: 0%;
+        left: 96%;
     }
 }
 
