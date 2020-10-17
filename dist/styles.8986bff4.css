@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'PT Serif bold';
+    src: url(/PTSerif-Bold.005be9c6.woff) format('woff'),
+        url(/PTSerif-Bold.0e1b992b.woff2) format('woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Pt Serif';
+    src: url(/PTSerif-Regular.a877a274.woff) format('woff'),
+        url(/PTSerif-Regular.032d2e19.woff2) format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Poppins Semi-bold';
+    src: url('/Poppins-SemiBold.017f6165.woff') format('woff'),
+        url('/Poppins-SemiBold.93328998.woff2') format('woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/Poppins-Regular.a8a63929.woff') format('woff'),
+        url('/Poppins-Regular.a026def0.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/Montserrat-SemiBold.2b6ec5ac.woff') format('woff'),
+        url('/Montserrat-SemiBold.b56e7437.woff2') format('woff2');
+    font-weight: 600;
+}
+
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.heading {
+    margin: 0;
+    font-family: 'PT Serif bold';
+}
+
+.main_heading {
+    font-family: 'Poppins Semi-bold';
+    text-transform: uppercase;
+    margin-block-start: 32px;
+}
+
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    column-gap: 32px;
+    margin-block-start: 64px;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text {
+    font-family: 'Pt Serif';
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 12px;
+}
+
+.text-bill {
+    top: 0%;
+    left: 44%;
+}
+
+.text-saba {
+    top: 4.5%;
+    left: 98%;
+    display: inline-table;
+}
+
+.text-shae {
+    top: 33.5%;
+    left: 44%;
+}
+
+.text-skylah {
+    top: 37.5%;
+    left: 98%;
+    display: inline-table;
+}
+
+.text-griff {
+    top: 66.5%;
+    left: 44%;
+}
+
+.text-stan {
+    top: 71%;
+    left: 98%;
+    display: inline-table;
+}
+
+figcaption {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.image_saba,
+.image_skylah,
+.image_stan {
+    margin-block-start: 50px;
+}
+
+footer {
+    font-family: 'Montserrat';
+    color: rgba(169, 169, 169, 1);
+    text-align: center;
+    margin-block-start: 100px;
+}
+
+@media (min-width: 550px) {
+    body {
+        max-width: 1000px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+
+    .header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    figure {
+        position: relative;
+    }
+
+    .content {
+        margin-block-start: -32px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 32px;
+        column-gap: 50px;
+    }
+
+    .image_saba {
+        margin-block-start: 100px;
+    }
+
+    .image_griff {
+        margin-block-start: 150px;
+    }
+
+    .text-bill {
+        position: absolute;
+        top: 0%;
+        left: 94%;
+    }
+
+    .text-saba {
+        top: 0%;
+        left: 96%;
+    }
+
+    .text-shae {
+        top: 0%;
+        left: 96%;
+        display: inline-table;
+    }
+
+    .text-skylah {
+        top: 0%;
+        left: 96%;
+    }
+
+    .text-griff {
+        top: 0%;
+        left: 96%;
+    }
+
+    .text-stan {
+        top: 0%;
+        left: 96%;
+    }
+}
+
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
